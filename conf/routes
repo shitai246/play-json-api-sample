@@ -10,6 +10,7 @@ GET     /count                      controllers.CountController.count
 GET     /message                    controllers.AsyncController.message
 
 GET     /api/v1/sample              controllers.ApiController.sample
+GET     /api/v1/slicksample         controllers.ApiController.slickSample
 
 # Map static resources from the /public folder to the /assets URL path
 GET     /assets/*file               controllers.Assets.versioned(path="/public", file: Asset)
